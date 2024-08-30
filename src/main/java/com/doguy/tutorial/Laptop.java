@@ -4,16 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Alien {
-
-    private final Laptop lap;
+public class Laptop {
 
     @Autowired
-    public Alien(Laptop lap) {
-        this.lap = lap;
-    }
-
-    public void code() {
-        lap.compile();
+    public void compile() {
+        System.out.println("Compile");
     }
 }
