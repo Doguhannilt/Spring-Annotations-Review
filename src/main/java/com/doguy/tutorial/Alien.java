@@ -8,6 +8,7 @@ public class Alien {
 
     private final Laptop lap;
 
+
     @Autowired
     public Alien(Laptop lap) {
         this.lap = lap;
